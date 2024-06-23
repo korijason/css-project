@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+}
+
+.bar{
+    display: inline;
+    text-align: left;
+}
+body{
+font-family:Roboto;
+}
+.bottom{
+    color: rgb(11, 68, 11);
+}
+
+h2:hover{
+color:rgba(158, 48, 8, 0.877);
+opacity: 0.7;
+}
+.home:hover{
+   font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s
+}
+.about:hover{
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s
+}
+.work:hover{
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s 
+}
+
+.resume:hover{
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s 
+    
+}
+
+.contact:hover{
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s  
+}
+
+.submit{
+    margin: 25px ;
+}
+
+.submit:hover{
+    transition:0.6s;
+    font-weight: bold ;
+    padding: 5%;
+    background-color: rgb(231, 120, 79)
+    
+    
+}
+

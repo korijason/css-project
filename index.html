@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
     <!--Header section-->
     <title>About Me</title>
     <link rel="Icon" href="./images/home.ico.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
       <h1>Jason Kori</h1>
-      <nav>
+      <nav class="bar">
         <ul>
           <li><a href="#Home"> Home</a></li>
           <li><a href="#About">About </a></li>
@@ -25,7 +32,7 @@
     </header>
     <main>
       <!--Main content section-->
-      <section name="Home">
+      <section name="Home" class="home">
         <h2>Home</h2>
         <p>
           My name is Jason Kori. I am a software developer with 5 years of
@@ -39,7 +46,7 @@
         />
       </section>
 
-      <section name="About">
+      <section name="About" class="about">
         <h2>About</h2>
         <p>
           Hello! I'm Jason Kori, a passionate software developer. With a deep
@@ -61,7 +68,7 @@
           </audio>
         </div>
       </section>
-      <section name="Work">
+      <section name="Work" class="work">
         <h2>Work</h2>
         <p>
           With over 5 years of hands-on experience as a software engineer, I've
@@ -74,7 +81,7 @@
           organizational goals and industry standards.
         </p>
       </section>
-      <section name="Resume">
+      <section name="Resume" class="resume">
         <h2>Resume</h2>
         <h4>Below is my resume:</h4>
 
@@ -169,23 +176,23 @@
           <p>Available upon request.</p>
         </div>
       </section>
-      <section name="Contact">
+      <section name="Contact" class="contact">
         <h2>Contact</h2>
         <h4>Input your details and I will be in touch as soon as possible.</h4>
         <form>
           <div>
-            <label>Name: </label>
+            <label style="font-weight: bolder">Name: </label>
             <input type="text" placeholder="Type your full name here" /><br />
           </div>
           <div>
-            <br /><label> Phone number:</label>
+            <br /><label style="font-weight: bolder"> Phone number:</label>
             <input
               type="number"
               placeholder="Type your phone number here"
             /><br />
           </div>
           <div>
-            <br /><label>Email Adress: </label>
+            <br /><label style="font-weight: bolder">Email Adress: </label>
             <input
               type="text"
               placeholder="Type your email address here"
@@ -193,7 +200,7 @@
           </div>
 
           <div>
-            <button>Submit</button>
+            <button class="submit">Submit</button>
           </div>
         </form>
       </section>
@@ -201,7 +208,7 @@
     <footer>
       <!--Footer section-->
       <br /><a name="Pagebottom"></a>
-      <a href="#Pagetop"> Top of the page </a>
+      <a class="bottom" href="#Pagetop"> Top of the page </a>
     </footer>
   </body>
 </html>
